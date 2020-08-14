@@ -23,7 +23,6 @@ public enum PrizeType {
 	HUNDREDG  (  100000,"a 100 Grand bar"),
 	HUNTER    (   22475,"Superportal codes"), //Aaron and Atia
 	FEUD      (   20000,"Fast Money"), //MattR
-	DEFBOMB   (  250000,"a defused bomb"), //Jumble
 	JOKERSIKE (       1,"a fake Joker"), //Lavina
 	STCHARLES (     140,"a trip to St. Charles Place"), //MattR
 	SNOOKER   (     147,"a snooker table"), //KP
@@ -37,8 +36,7 @@ public enum PrizeType {
 	ITSART    (   35000,"art! Would you like to buy it... for ALL OF YOUR MONEY? No, it's... it's free. Art"),
 	DISCORD   (   70013,"a Discord lamp"),
 	PYRAMID   (  100000,"Pyramid"),
-	BIFORCE   (   22222,"The Biforce"),
-	SMALLTHINGS (   182,"All the Small Things");
+	BIFORCE   (   22222,"The Biforce");
     
     private final int prizeValue;
     private final String prizeName;
